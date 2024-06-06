@@ -1040,7 +1040,7 @@ ul.tabs {
 .service-single-box:hover .Lifesafe-btn.service a::before {
     width: 100%;
 }
-
+.Lifesafe-btn.service a:hover {color: #8ad6e2;}
 
 /*==================================================
  <-- Lifesafe Protection Area Css-->
