@@ -994,7 +994,7 @@ ul.tabs {
     background-color: #ffffff;
     border: 1px solid #ececec;
     padding: 30px 40px 30px;
-    height: 100%;
+    min-width:100%;
 }
 
 .service-content h4 a {
