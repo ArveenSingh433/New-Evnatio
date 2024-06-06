@@ -2328,6 +2328,9 @@
 
 /* small mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 574px) {
+    #imgresponsive{
+        width: 200px;
+    }
 
     .mobile-menu-area {
         display: inherit;
