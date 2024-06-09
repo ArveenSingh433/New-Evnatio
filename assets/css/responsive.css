@@ -182,6 +182,11 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    .services .details{
+        height:100%;
+    }
+
+
     .mobile-menu-area {
         display: none;
     }
@@ -628,6 +633,11 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    
+    .services .details{
+        height:100%;
+    }
+
 
     .mobile-menu-area {
         display: inherit;
@@ -1731,6 +1741,11 @@
 
 /* small mobile :575px. */
 @media only screen and (min-width: 575px) and (max-width: 599px) {
+
+    .services .details{
+        height:100%;
+    }
+
 
     .mobile-menu-area {
         display: inherit;
@@ -2958,12 +2973,20 @@
     .shifa-preloader .animation-preloader .txt-loading .letters-loading{
         font-size: 60px;
         letter-spacing: 8px;
+
       }
+
+     
 }
 
 
 /* small mobile :320px. */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    
+    .services .details{
+        height:100%;
+    }
 
     .mobile-menu-area {
         display: inherit;
@@ -3350,11 +3373,11 @@
     /* header area */
 
     .mobile-menu-area.style-three {
-        background: #406aff !important;
+        background: #405e60 !important;
     }
 
     .mobile-menu-area.style-three.sticky-menu {
-        background: #406aff !important;
+        background: #405e60 !important;
     }
 
     /* slider area */
