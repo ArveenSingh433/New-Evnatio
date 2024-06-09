@@ -125,8 +125,9 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 ===================================================*/
 
 .header-area {
-    position: relative;
-    background: #fff;
+    width: 100%;
+    position: fixed;
+    background: ;
     filter: drop-shadow(0px 1px 25.5px rgba(0, 0, 0, 0.11));
     z-index: 9;
 }
@@ -148,12 +149,19 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     max-width: 1600px;
 }
 
+
+#logoside{margin-left: 50px;}
+
 .header-menu {
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-left: 80px;
+    
 }
+
+
+
+
 
 .header-menu ul {
     list-style: none;
@@ -168,13 +176,13 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 .header-menu ul li a {
     font-size: 18px;
     color: #003a37;
-    font-weight: 500;
+    font-weight: 550;
     position: relative;
     transition: .5s;
     padding: 36px 0;
     text-decoration: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 
 .header-menu ul li a:hover {
@@ -430,8 +438,8 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 .banner-carousel .slide-item {
     position: relative;
     overflow: hidden;
-    min-height: 730px;
-    top: 42px;
+    min-height: 800px;
+    
 }
 
 .banner-carousel .slide-item .image-layer {
@@ -700,11 +708,12 @@ video.video-background {
 }
 
 .section-main-title h2 {
+    text-align: left;
     margin-top: 20px;
     font-size: 48px;
     color: #23222a;
-    font-weight: 500;
-    font-family: "Raleway";
+    font-weight: 550;
+  
     margin-bottom: 42px;
 }
 
@@ -1037,10 +1046,14 @@ ul.tabs {
     text-align: center;
 }
 
+
+.Lifesafe-btn.service a:hover {color: #8ad6e2;}
+    
+
 .service-single-box:hover .Lifesafe-btn.service a::before {
     width: 100%;
 }
-.Lifesafe-btn.service a:hover {color: #8ad6e2;}
+
 
 /*==================================================
  <-- Lifesafe Protection Area Css-->
@@ -1893,7 +1906,7 @@ li.table-brb span.style {
 /* slider area */
 
 .slide-item.one {
-    height: 600px;
+    height: 650px;
     top: 0;
 }
 
@@ -5500,8 +5513,8 @@ span.flaticon-multiply i {
       padding: 35px 10px 10px 10px;
     
       position: relative;
-    margin-bottom:30px;
-    min-height: 420px;
+      margin-bottom:30px;
+        min-height: 420px;
   
   }
   .services-block-three>a:before {
@@ -5718,7 +5731,7 @@ background-color: #fafafa;
     a,
     a:active,
     a:focus {
-        color: #0122df;
+        color: #405e60;
         text-decoration: none;
         transition-timing-function: ease-in-out;
         -ms-transition-timing-function: ease-in-out;
@@ -5732,13 +5745,16 @@ background-color: #fafafa;
         -o-transition-duration: .2s;
     }
     
+    #sectioncolor{
+        color: #003336;
+    }
     ul {
         margin: 0;
         padding: 0;
         
     }
     img {
-max-width: 100%;
+        max-width: 100%;
 height: auto;
 }
     section {
@@ -5911,15 +5927,222 @@ text-align: center;
 .copyright a:hover{color:#ff3666;}
 
 
+
+
+
+
 .numbertext{
     font-size: 25px;
 }
 
-
-
-
-
 /*END CSS*/
 
 
+
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .img {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .services .img img {
+    transition: 0.6s;
+  }
+  
+  .services .details {
+    height: 310px;
+    box-shadow: 1px 5px 5px lightblue;
+    padding: 54px 10px;
+    margin-top: -30px;
+    transition: all ease-in-out 0.3s;
+    position: relative;
+    background: color-mix(in srgb, var(--contrast-color), transparent 5%);
+    
+    border-radius: 8px;
+   
+  }
+  
+  .services .details .icon {
+    margin: 0;
+    width: 90px;
+    height: 90px;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    border: 6px solid var(--contrast-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+    position: absolute;
+    top: -36px;
+    left: calc(48% - 36px);
+  }
+  
+  .services .details h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 7px 0 5px 0;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .details p {
+    color: color-mix(in srgb, var(--default-color), transparent 10%);
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .services .service-item:hover .details h3 {
+    color: var(--accent-color);
+  }
+  
+  .services .service-item:hover .details .icon {
+    background: var(--contrast-color);
+    border: 2px solid var(--accent-color);
+  }
+  
+  .services .service-item:hover .details .icon i {
+    color: var(--accent-color);
+  }
+  
+  .services .service-item:hover .img img {
+    transform: scale(1.2);
+  }
+
+
+
+/*--------------------------------------------------------------
+# Featured Services Section
+--------------------------------------------------------------*/
+.featured-services .service-item {
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    height: 100%;
+  }
+  
+  .featured-services .service-item .icon {
+    margin-bottom: 10px;
+  }
+  
+  .featured-services .service-item .icon i {
+    color: var(--accent-color);
+    font-size: 36px;
+    transition: 0.3s;
+  }
+  
+  .featured-services .service-item h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .featured-services .service-item h4 a {
+    color: var(--heading-color);
+    transition: ease-in-out 0.3s;
+  }
+  
+  .featured-services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .featured-services .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 90px 0px color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+  
+  .featured-services .service-item:hover h4 a {
+    color: var(--accent-color);
+  }
+
+  
+  .section-title {
+   
+    padding-bottom: 60px;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 48px;
+    font-weight: 350;
+    margin-bottom: -30px;
+    text-align:left;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+#position-relative{
+    background-color: #fff;
+}
+
+/* Icon styles */
+#icon {
+    background-color: #405e60;
+    color: #ffffff;
+    transition: transform 0.4s, background-color 0.4s;
+}
+
+/* Icon hover effect */
+#icon:hover {
+    transform: scale(1.1);
+    background-color: #405e60;
+    border: #003336 2px solid;
+    color: #003336;
+}
+
+/* Image hover effect */
+#img-services {
+    transition: transform 0.4s;
+}
+
+/* When hovering over the image, apply zoom and change icon styles */
+#img-services:hover #icon {
+    transform: scale(1.1);
+    background-color: #fff;
+}
+
+#img-services:hover {
+    transform: scale(1.1); /* Adjust the scale as needed for the desired zoom effect */
+}
+
+.stretched-link:hover{text-decoration: none;}
+
+.stretched-link:hover{color: #003d4d;}
+
+
+#services{
+
+    margin-bottom: 50px;
+}
+
+
+.stretched-link :hover{zoom: 1.2;}
+
+
+
+.service-item{
+    transition: transform .5s;
+}
+
+.service-item:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  border-style: solid;
+  border-color: #405e60;
+  border-width: 1px;
+  border-radius: 10px;
+box-shadow: 8px 8px 5px lightblue;
+}
 
