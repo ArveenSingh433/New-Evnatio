@@ -2,8 +2,8 @@
 @media (min-width: 1200px) and (max-width: 1600px) {
 
     .logo a img {
-        width: 100%;
-        margin-left: 100px;
+        
+        margin-left: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -191,8 +191,8 @@
 
 
     .logo a img {
-        width: 100%;
-        margin-left: 90px;
+      
+      margin-left: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
