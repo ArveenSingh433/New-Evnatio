@@ -1,6 +1,13 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1600px) {
 
+    .logo a img {
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .mobile-menu-area {
         display: none;
     }
@@ -181,6 +188,14 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+
+    .logo a img {
+        width: 100%;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
     .services .details{
         height:100%;
