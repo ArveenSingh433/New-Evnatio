@@ -153,6 +153,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 #logoside{margin-left: 50px;}
 
 .header-menu {
+    padding-right: 60px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -6146,6 +6147,8 @@ text-align: center;
 box-shadow: 8px 8px 5px lightblue;
 }
 
+
+
 container {
     font-family: sans-serif;
     color: #3c3c3c;
@@ -6176,3 +6179,4 @@ container {
     mask-position: 100%;
     opacity: 1;
   }
+
